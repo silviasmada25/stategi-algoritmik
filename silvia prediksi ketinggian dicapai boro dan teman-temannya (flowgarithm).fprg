@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="TU_LANTAI2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 01:45:22 PM"/>
+        <attribute name="created" value="VFVfTEFOVEFJMjtERVNLVE9QLU4xSUpVS1M7MjAyMy0xMC0wOTswMTozNTozMyBQTTszMTMx"/>
+        <attribute name="edited" value="VFVfTEFOVEFJMjtERVNLVE9QLU4xSUpVS1M7MjAyMy0xMC0wOTswMTo0NToyMiBQTTszOzMyNDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="String" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <declare name="t" type="Real" array="False" size=""/>
+            <declare name="status" type="Integer" array="False" size=""/>
+            <declare name="sinA" type="Real" array="False" size=""/>
+            <input variable="n"/>
+            <input variable="s"/>
+            <input variable="t"/>
+            <input variable="v"/>
+            <assign variable="sinA" expression="sin(s*22/7/180)"/>
+            <assign variable="t" expression="v^2*sinA^2/20"/>
+            <output expression="t" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
