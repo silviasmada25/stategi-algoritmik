@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="TU_LANTAI2"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 01:32:30 PM"/>
+        <attribute name="created" value="VFVfTEFOVEFJMjtERVNLVE9QLU4xSUpVS1M7MjAyMy0xMC0wOTswMToyMDozOSBQTTszMTMx"/>
+        <attribute name="edited" value="VFVfTEFOVEFJMjtERVNLVE9QLU4xSUpVS1M7MjAyMy0xMC0wOTswMTozMjozMCBQTTsxOzMyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="waktu" type="Real" array="False" size=""/>
+            <declare name="v" type="Integer" array="False" size=""/>
+            <declare name="s" type="Integer" array="False" size=""/>
+            <declare name="srad" type="Real" array="False" size=""/>
+            <declare name="sinA" type="Real" array="False" size=""/>
+            <input variable="v"/>
+            <input variable="s"/>
+            <assign variable="srad" expression="s*(3.14/180)"/>
+            <assign variable="waktu" expression="(2*(v*srad))/10"/>
+            <assign variable="sinA" expression="sin(s*22/7/180)"/>
+            <output expression="waktu" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
